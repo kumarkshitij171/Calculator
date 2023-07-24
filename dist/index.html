@@ -1,47 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Oasis Calculator</title>
     <link href="styles.css" rel="stylesheet">
+
 </head>
-<body class="bg-sky-700">
-    <div class="flex justify-center flex-col">
-    <div class="m-auto">
-        <input type="text" class="mx-4 my-2 py-3 px-7 rounded-md">
-        <div class="row m-3">
-            <button class="bg-white m-1 p-5 text-xl rounded-md hover:bg-gray-300">3</button>
-            <button class="bg-white m-1 p-5 text-xl rounded-md hover:bg-gray-300">3</button>
-            <button class="bg-white m-1 p-5 text-xl rounded-md hover:bg-gray-300">3</button>
-            <button class="bg-white m-1 p-5 text-xl rounded-md hover:bg-gray-300">3</button>
-        </div>
-        <div class="row m-3">
-            <button class="bg-white m-1 p-5 text-xl rounded-md hover:bg-gray-300">3</button>
-            <button class="bg-white m-1 p-5 text-xl rounded-md hover:bg-gray-300">3</button>
-            <button class="bg-white m-1 p-5 text-xl rounded-md hover:bg-gray-300">3</button>
-            <button class="bg-white m-1 p-5 text-xl rounded-md hover:bg-gray-300">3</button>
-        </div>
-        <div class="row m-3">
-            <button class="bg-white m-1 p-5 text-xl rounded-md hover:bg-gray-300">3</button>
-            <button class="bg-white m-1 p-5 text-xl rounded-md hover:bg-gray-300">3</button>
-            <button class="bg-white m-1 p-5 text-xl rounded-md hover:bg-gray-300">3</button>
-            <button class="bg-white m-1 p-5 text-xl rounded-md hover:bg-gray-300">3</button>
-        </div>
-        <div class="row m-3">
-            <button class="bg-white m-1 p-5 text-xl rounded-md hover:bg-gray-300">3</button>
-            <button class="bg-white m-1 p-5 text-xl rounded-md hover:bg-gray-300">3</button>
-            <button class="bg-white m-1 p-5 text-xl rounded-md hover:bg-gray-300">3</button>
-            <button class="bg-white m-1 p-5 text-xl rounded-md hover:bg-gray-300">3</button>
-        </div>
-        <div class="row m-3">
-            <button class="bg-white m-1 p-5 text-xl rounded-md hover:bg-gray-300">3</button>
-            <button class="bg-white m-1 p-5 text-xl rounded-md hover:bg-gray-300">3</button>
-            <button class="bg-white m-1 p-5 text-xl rounded-md hover:bg-gray-300">3</button>
-            <button class="bg-white m-1 p-5 text-xl rounded-md hover:bg-gray-300">3</button>
+
+<body class="bg-gradient-to-r from-[#153677] to-[#4e085f] font-Ubuntu">
+    <h2 class="p-3 py-9 flex justify-center items-center text-white text-lg font-bold">Welcome to Calculator App</h2>
+    <div class="flex justify-center items-center flex-col ">
+        <div class="bg-white w-fit rounded-xl  md:p-6">
+            <div class="m-auto">
+                <input type="text" class="mx-4 my-5 py-3 px-5 rounded-md bg-[#83b7f6] text-white font-bold">
+                <div class="row mx-3 mb-3">
+                    <button class="btn bg-[#b3edf8] m-1 p-5 text-xl rounded-md hover:bg-[#94ebfc]">C</button>
+                    <button class="btn bg-[#b3edf8] m-1 p-5 text-xl rounded-md hover:bg-[#94ebfc]">%</button>
+                    <button class="btn bg-[#b3edf8] m-1 p-5 text-xl rounded-md hover:bg-[#94ebfc]">(</button>
+                    <button class="btn bg-[#b3edf8] m-1 p-5 text-xl rounded-md hover:bg-[#94ebfc]">)</button>
+                </div>
+                <div class="row mx-3 mb-3">
+                    <button class="btn bg-[#b3edf8] m-1 p-5 text-xl rounded-md hover:bg-[#94ebfc]">7</button>
+                    <button class="btn bg-[#b3edf8] m-1 p-5 text-xl rounded-md hover:bg-[#94ebfc]">8</button>
+                    <button class="btn bg-[#b3edf8] m-1 p-5 text-xl rounded-md hover:bg-[#94ebfc]">9</button>
+                    <button class="btn bg-[#b3edf8] m-1 p-5 text-xl rounded-md hover:bg-[#94ebfc]">*</button>
+                </div>
+                <div class="row mx-3 mb-3">
+                    <button class="btn bg-[#b3edf8] m-1 p-5 text-xl rounded-md hover:bg-[#94ebfc]">4</button>
+                    <button class="btn bg-[#b3edf8] m-1 p-5 text-xl rounded-md hover:bg-[#94ebfc]">5</button>
+                    <button class="btn bg-[#b3edf8] m-1 p-5 text-xl rounded-md hover:bg-[#94ebfc]">6</button>
+                    <button class="btn bg-[#b3edf8] m-1 p-5 text-xl rounded-md hover:bg-[#94ebfc]">/</button>
+                </div>
+                <div class="row mx-3 mb-3">
+                    <button class="btn bg-[#b3edf8] m-1 p-5 text-xl rounded-md hover:bg-[#94ebfc]">1</button>
+                    <button class="btn bg-[#b3edf8] m-1 p-5 text-xl rounded-md hover:bg-[#94ebfc]">2</button>
+                    <button class="btn bg-[#b3edf8] m-1 p-5 text-xl rounded-md hover:bg-[#94ebfc]">3</button>
+                    <button class="btn bg-[#b3edf8] m-1 p-5 text-xl rounded-md hover:bg-[#94ebfc]">+</button>
+                </div>
+                <div class="row mx-3 mb-3">
+                    <button class="btn bg-[#b3edf8] m-1 p-5 text-xl rounded-md hover:bg-[#94ebfc]">0</button>
+                    <button class="btn bg-[#b3edf8] m-1 p-5 px-6 text-xl rounded-md hover:bg-[#94ebfc]">.</button>
+                    <button class="btn bg-[#b3edf8] m-1 p-5 text-xl rounded-md hover:bg-[#94ebfc]">-</button>
+                    <button class="btn bg-[#b3edf8] m-1 p-5 text-xl rounded-md hover:bg-[#94ebfc]">=</button>
+                </div>
+
+            </div>
         </div>
     </div>
-    
-    </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
